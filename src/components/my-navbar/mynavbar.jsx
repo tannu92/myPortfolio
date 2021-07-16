@@ -17,7 +17,7 @@ const MyNavbar=()=>{
 
 
   <Navbar.Brand href="#home">
-  	<img className="logo" src={Logo} alt="My portfolio Logo" />
+  	
 
   </Navbar.Brand>
 

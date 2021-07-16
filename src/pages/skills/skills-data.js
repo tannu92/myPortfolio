@@ -23,6 +23,7 @@ import L_JAVASCRIPT from "../../assets/img/skills/javascript.svg";
 import L_TYPESCRIPT from "../../assets/img/skills/typescript.svg";
 import L_GOLANG from "../../assets/img/skills/go-6.svg";
 import L_PYTHON from "../../assets/img/skills/python.svg";
+import L_C from "../../assets/img/skills/c.svg";
 
 export const skills = {
   frontend: [
@@ -62,7 +63,7 @@ export const skills = {
       imgSrc: L_REACT,
       skillName: "React JS",
     },
-    {
+    /*{
       link: "https://redux.js.org/",
       imgAltText: "Redux",
       imgSrc: L_REDUX,
@@ -79,7 +80,7 @@ export const skills = {
       imgAltText: "Material-UI",
       imgSrc: L_MATERIALUI,
       skillName: "Material-UI",
-    },
+    },*/
     {
       link: "https://react-bootstrap.github.io/",
       imgAltText: "React Bootstrap",
@@ -108,22 +109,12 @@ export const skills = {
       imgSrc: L_EXPRESS,
       skillName: "Express",
     },
-    {
-      link: "https://www.djangoproject.com/",
-      imgAltText: "Django",
-      imgSrc: L_DJANGO,
-      skillName: "Django",
-    },
+    
     
   ],
   hostingPlatforms: [
     
-    {
-      link: "https://www.digitalocean.com/",
-      imgAltText: "Digital Ocean",
-      imgSrc: L_DIGITAL_OCEAN,
-      skillName: "Digital Ocean",
-    },
+    
     {
       link: "https://pages.github.com/",
       imgAltText: "GitHub Pages",
@@ -139,10 +130,10 @@ export const skills = {
       skillName: "JavaScript",
     },
     {
-      link: "https://www.typescriptlang.org/",
-      imgAltText: "TypeScript",
-      imgSrc: L_TYPESCRIPT,
-      skillName: "TypeScript",
+      link: "https://en.wikipedia.org/wiki/C%2B%2B",
+      imgAltText: "C/C+=",
+      imgSrc: L_C,
+      skillName: "C/C++",
     },
     
     
@@ -155,19 +146,19 @@ export const skills = {
       imgSrc: L_MSSQL,
       skillName: "MS-SQL",
     },
-    {
+    /*{
       link: "https://www.mongodb.com/",
       imgAltText: "MongoDB",
       imgSrc: L_MONGODB,
       skillName: "MongoDB",
-    },
+    },*/
   ],
   versionControl: [
     {
-      link: "https://git-scm.com/",
-      imgAltText: "GIT",
-      imgSrc: L_GIT,
-      skillName: "GIT",
+      link: "https://github.com/",
+      imgAltText: "GITHUB",
+      imgSrc: L_GITHUB_PAGES,
+      skillName: "GITHUB",
     },
   ],
 };

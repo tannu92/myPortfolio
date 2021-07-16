@@ -31,15 +31,17 @@ const Experience = () => {
                     <br/>
                     <strong> Description </strong>
                     <ul className="text-left">
-                      <li><strong>Developed &amp; enhanced</strong> multiple features with customizability option across web application.</li>
-                      <li><strong>Developed</strong> automation system to create SQL bulk query scripts that 
-                        increased efficiency by 80% and decreased working hours from 4 hours to 30 mins per task.
-                      </li>
-                      <li><strong>Provided</strong> application maintenance while working as `Production Support`. 
-                      </li>
-                      <li><strong>Performed</strong> CRUD operations on multiple databases to load/ remove data according 
-                      to the business requirements.</li>
-                      {/* <li><strong>Co-created</strong> React Document used as a guide for new developers.</li> */}
+
+                   <li> 3+ years of experience in website design, development and implementation using HTML5,
+                        CSS3, Javascript, Bootstrap and Wordpress.</li>
+                  <li>Implemented responsive websites and landing pages from concept through deployment.</li>
+                  <li>Developed email templates using HTML and CSS.</li>
+                  <li>Experience with email-marketing, content marketing, SEO , social media marketing</li>
+
+
+
+
+                     
 
                     </ul>
                     

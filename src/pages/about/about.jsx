@@ -4,6 +4,8 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import "./about.style.css";
 import Profile from "../../assets/img/profile/profile.jpg";
+import Resume from "../../assets/img/profile/resume.pdf";
+
 import Image from "react-bootstrap/Image";
 import Button from "react-bootstrap/Button";
 
@@ -25,7 +27,7 @@ const About = () => {
                 <Col xs={12} md={6}>
                      <Row className=" align-items-start p-2 my-details rounded">
                           Hi there! I am <strong>&nbsp;Tannu</strong>
-                          <br />A passionate programmer, born and brought up in India. I am a Web Developer with React.js, Node.js, Javascript, HTML and CSS as my tech stack.
+                          <br />A passionate programmer, born and brought up in India. I am a Web Developer with React.js, Javascript, HTML, CSS and Bootstrap as my tech stack.
                           <br />
                           In 2016, I successfully completed my Engineering with specialization in 'Computer Science'.
                           <br />
@@ -44,7 +46,7 @@ const About = () => {
                                </div>
                   
                               <div>
-                              <a href="https://drive.google.com/file/d/1Snbq3x4Itk_ZN4c8J96aNdp4SunXR08Y/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                              <a href={Resume} target="_blank" rel="noopener noreferrer">
                               <Button className="m-2" variant="outline-success">
                                My Resume
                               </Button>
