@@ -143,7 +143,7 @@ const TimeLine = () => {
           {/* Project: RoboFriends */}
 
           <ImageEvent
-            date="14/01/2020"
+            date="14/10/2020"
             className="text-center"
             text="RoboFriends"
             src={L_RoboFriends}
